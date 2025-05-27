@@ -1,8 +1,8 @@
 <?php
-$host = "test-database-1.crgueu2066o5.eu-west-2.rds.amazonaws.com";  // e.g., mydb.xxxxx.us-east-1.rds.amazonaws.com
-$dbname = "test-database-1";
-$username = "test_admin";
-$password = "bRp8mRohkAZQppUfluVN";
+$host = "YOUR_RDS_ENDPOINT";  // e.g., mydb.xxxxx.us-east-1.rds.amazonaws.com
+$dbname = "YOUR_DATABASE_NAME";
+$username = "YOUR_DB_USERNAME";
+$password = "YOUR_DB_PASSWORD";
 
 echo "<h2>Welcome to my Load Balanced Web App on AWS!</h2>";
 
